@@ -1,0 +1,30 @@
+{
+  "name": "grechka",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.1",
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.88.7",
+    "@react-three/fiber": "^8.15.8",
+    "@react-three/rapier": "1.1",
+    "dat.gui": "^0.7.9",
+    "i18next": "^23.8.2",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "leva": "^0.9.35",
+    "lil-gui": "^0.19.1",
+    "r3f-perf": "^7.1.2",
+    "react": "18.2",
+    "react-dom": "18.2",
+    "react-i18next": "^14.0.1",
+    "three": "^0.158.0"
+  }
+}
